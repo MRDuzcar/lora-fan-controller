@@ -18,6 +18,16 @@ The wireless prototype has been tested, and the fabricated PCBs have been receiv
 
 The displayed RPM is a nominal command mapped to PWM duty, rather than measured feedback. The current firmware does not regulate actual RPM.
 
+## Prototype Demonstration
+
+[Watch the earlier prototype](https://youtu.be/8DYOgK-LQgM)
+
+This video demonstrates the earlier firmware preserved in
+`archive/feedback_version/`, including mode switching and tachometer feedback.
+The current firmware uses PWM-only control without tachometer feedback.
+A demonstration of the assembled PCB version will be added after soldering
+and testing.
+
 ## Current firmware
 
 Use these sketches together:
