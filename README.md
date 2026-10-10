@@ -6,7 +6,7 @@ The project developed from a local fan-control prototype into a wireless system 
 
 ## Project status
 
-The wireless prototype has been tested, and the fabricated PCBs have been received. Soldering and testing of the assembled boards are pending. The receiver PCB includes connections for six fans; testing of the six-fan assembly is pending.
+The wireless prototype has been tested, and the fabricated PCBs have been received. Soldering and testing of the assembled boards are pending.
 
 ## Features
 
