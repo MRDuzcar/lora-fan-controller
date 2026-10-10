@@ -93,6 +93,12 @@ Both boards use a radio frequency of 915 MHz.
 - **DOWN:** Reduce the setting by 100; pressing DOWN at 500 selects zero.
 - **POWER:** Toggle master enable independently of the target setting.
 
+## Enclosure Design
+
+I designed a custom 3D-printable enclosure to house the project electronics.
+The [STL file](mechanical/Fan case.stl) is available for printing.
+Printing and fit testing are pending.
+
 Master enable starts off. Selecting zero disables fan power but leaves master enable unchanged. Raising the target can therefore restart the fan if master enable is still on.
 
 ## Design changes and development history
@@ -107,3 +113,9 @@ Early prototypes measured tachometer pulses and sent actual RPM back to the tran
 - Actual fan speed is not measured or regulated in the current firmware.
 - Commands have no acknowledgement, automatic retry, or link-loss shutdown. A missed packet can leave the receiver in its previous state.
 - The OLED shows the transmitter's commanded state, without confirmation from the receiver.
+
+## AI Assistance
+
+The Arduino firmware and project documentation were created with AI assistance.
+I carried out the hardware prototyping, wiring, testing, troubleshooting,
+PCB design, custom footprint creation, and enclosure design.
