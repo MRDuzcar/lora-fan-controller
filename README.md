@@ -96,7 +96,7 @@ Both boards use a radio frequency of 915 MHz.
 ## Enclosure Design
 
 I designed a custom 3D-printable enclosure to house the project electronics.
-The [STL file](mechanical/Fan case.stl) is available for printing.
+The [Enclosure STL](mechanical/Fan%20case.stl) is available for printing.
 Printing and fit testing are pending.
 
 Master enable starts off. Selecting zero disables fan power but leaves master enable unchanged. Raising the target can therefore restart the fan if master enable is still on.
