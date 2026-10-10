@@ -112,7 +112,7 @@ Master enable starts off. Selecting zero disables fan power but leaves master en
 
 Early prototypes measured tachometer pulses and sent actual RPM back to the transmitter. During power-switching tests, tachometer wiring caused backfeeding that prevented the fan from fully turning off. The current design omits tachometer feedback and uses PWM-only speed control.
 
-- [Earlier feedback version](archive/feedback_version/): Preserves the transmitter and receiver with tachometer feedback. It uses a different power-command protocol and must be used as a matched pair.
+- [Earlier version](archive/mode_button_version/): Preserves the transmitter and receiver. It uses a different power-command protocol and must be used as a matched pair.
 - [Development examples](examples/): Local fan control, LoRa PING/ACK communication, button and LED tests, and earlier remote-control and OLED experiments. These are standalone bench sketches with version-specific wiring.
 
 ## Current limitations
