@@ -22,8 +22,8 @@ The displayed RPM is a nominal command mapped to PWM duty, rather than measured 
 
 [Watch the wireless fan-control prototype](https://youtu.be/8DYOgK-LQgM)
 
-This video shows an earlier breadboard prototype with mode switching
-and no tachometer feedback. It does not show the assembled PCB version.
+This video shows an earlier breadboard version with a mode-selection button. 
+The mode button was removed in the subsequent design.
 
 ## Current firmware
 
