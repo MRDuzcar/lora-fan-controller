@@ -18,6 +18,11 @@ The wireless prototype has been tested, and the fabricated PCBs have been receiv
 
 The displayed RPM is a nominal command mapped to PWM duty, rather than measured feedback. The current firmware does not regulate actual RPM.
 
+## Ordered PCB Designs
+
+[Transmitter](Hardware/Transmitter.zip/)
+[Receiver](Hardware/Receiver.zip/)
+
 ## Prototype Demonstration
 
 [Watch the wireless fan-control prototype](https://youtu.be/8DYOgK-LQgM)
