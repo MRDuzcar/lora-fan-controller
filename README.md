@@ -54,9 +54,7 @@ The potentiometer uses a 3.3 V reference. Buttons connect their GPIO inputs to g
 ![View transmitter schematic PDF](Hardware/SCH_Remote_2026-10-13.pdf)
 
 ### Receiver schematic
-![View receiver schematic PDF](Hardware/SCH_Receiver_2026-10-13.pdf)
-### Receiver schematic photo
-[View receiver schematic PNG](Hardware/SCH_Receiver_1-Fan_base_Schematic_2026-10-13.png)
+![Receiver schematic](Hardware/SCH_Receiver_1-Fan%20base%20Schematic_2026-10-13.png)
 
 
 ## Pin assignments
