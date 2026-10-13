@@ -6,7 +6,7 @@ The project developed from a local fan-control prototype into a wireless system 
 
 ## Project status
 
-The wireless prototype has been tested, and the fabricated PCBs have been received. Soldering and testing of the assembled boards are pending.
+The final PCBs are received, soldered, and the boards are tested to be fully functional.
 
 ## Features
 
@@ -108,7 +108,6 @@ Both boards use a radio frequency of 915 MHz.
 
 ## Operation
 
-- **MODE:** Switch between potentiometer and button control.
 - **UP:** Select 500 from zero, then increase the setting by 100 up to 2700.
 - **DOWN:** Reduce the setting by 100; pressing DOWN at 500 selects zero.
 - **POWER:** Toggle master enable independently of the target setting.
@@ -117,7 +116,7 @@ Both boards use a radio frequency of 915 MHz.
 
 I designed a custom 3D-printable enclosure to house the project electronics.
 The [Enclosure STL](mechanical/Fan%20case.stl) is available for printing.
-Printing and fit testing are pending.
+The enclosure is capable of holding six 92mm fans with arranged holes for cables.
 
 Master enable starts off. Selecting zero disables fan power but leaves master enable unchanged. Raising the target can therefore restart the fan if master enable is still on.
 
@@ -134,6 +133,11 @@ Early prototypes measured tachometer pulses and sent actual RPM back to the tran
 - Commands have no acknowledgement, automatic retry, or link-loss shutdown. A missed packet can leave the receiver in its previous state.
 - The OLED shows the transmitter's commanded state, without confirmation from the receiver.
 
+## Future improvements
+
+- Space the fan hub pins to accomodate direct plugging instead of using male to female jumper wires.
+- Add a separate power button to the receiver to turn off the fans instead of having to unplug when remote is inaccassible.
+  
 ## AI Assistance
 
 The Arduino firmware and project documentation were created with AI assistance.
