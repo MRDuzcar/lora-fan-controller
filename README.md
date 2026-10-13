@@ -51,7 +51,7 @@ Use these sketches together:
 The potentiometer uses a 3.3 V reference. Buttons connect their GPIO inputs to ground when pressed. Power-terminal wiring depends on the MOSFET module and should follow the circuit schematic.
 
 ### Transmitter schematic
-![Transmitter schematic](Hardware/SCH_Remote%20Schematic_2026-10-13.png)
+![Transmitter schematic](Hardware/SCH_Remote_1-Remote%20Schematic_2026-10-13.png)
 
 ### Receiver schematic
 ![Receiver schematic](Hardware/SCH_Receiver_1-Fan%20base%20Schematic_2026-10-13.png)
