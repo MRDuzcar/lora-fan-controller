@@ -6,7 +6,8 @@ The project developed from a local fan-control prototype into a wireless system 
 
 ## Project status
 
-The final PCBs are received, soldered, and the boards are tested to be fully functional.
+The project is finished, with the final version demonstrated here:
+[Watch the demonstration](https://youtu.be/nQ5tk_NX3FQ)
 
 ## Features
 
