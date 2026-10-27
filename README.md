@@ -136,8 +136,8 @@ Early prototypes measured tachometer pulses and sent actual RPM back to the tran
 
 ## Future improvements
 
-- Space the fan hub pins to accomodate direct plugging instead of using male to female jumper wires.
-- Add a separate power button to the receiver to turn off the fans instead of having to unplug when remote is inaccassible.
+- Space the fan hub pins to accommodate direct plugging instead of using male to female jumper wires.
+- Add a separate power button to the receiver to turn off the fans instead of having to unplug when remote is inaccessible.
   
 ## AI Assistance
 
